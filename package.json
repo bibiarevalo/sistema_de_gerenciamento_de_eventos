@@ -1,0 +1,11 @@
+{
+  "name": "sistema_de_gerenciamento_de_eventos",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de eventos artiticos e esportivos da BlueTicket - frontEnd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

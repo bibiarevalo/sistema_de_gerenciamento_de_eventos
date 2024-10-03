@@ -1,0 +1,17 @@
+npm init
+npm node -y
+node -v
+npm create vite@latest
+npm i
+npm run dev
+
+limpar o projeto:
+tirar tudo do index.jsx
+tirar strictMode do main.jsx
+tirar tudo do app.css
+
+instalar axios e importar 
+
+npm i react-router-dom 
+para navegar entre paginas
+
