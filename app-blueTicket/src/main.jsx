@@ -7,7 +7,7 @@ import './index.css'
 
 const paginas = createBrowserRouter([
   { path: '/', element: <Cadastro /> },
-  { path: '/listEvent/:id', element: <ListEvent /> },
+  { path: '/listEvent', element: <ListEvent /> },
   { path: '/detalhes/:id', element: <Detalhes /> },
 ])
 
