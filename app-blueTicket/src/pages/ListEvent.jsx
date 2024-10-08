@@ -13,21 +13,20 @@ function ListEvent() {
     const listarTdEventos = async() => {
         const url = 'http://localhost:8000/eventos/listar'
         const resposta = await axios.get(url)
-        console.log(resposta)
-        setListarEventos(resposta.data)
+        setListarEventos(resposta.data.eventos)
+
     }
 
     useEffect(() => {
         listarTdEventos()
     }, [])
-    //useEffect para renderizar
     
     return(
         <div>
         <h1>Lista de Eventos</h1>
 
         {/* Verifica se há eventos cadastrados */}
-        {listarEventos.length === 0 ? (
+        {listarEventos?.length === 0 ? (
             <p>Nenhum evento cadastrado.</p>
         ) : (
             listarEventos.map((evento) => (
